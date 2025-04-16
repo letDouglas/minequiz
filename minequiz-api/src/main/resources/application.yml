@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: minequiz-api
+  data:
+    mongodb:
+      uri: mongodb://ttf:1234@localhost:27017/minequizdb?authSource=admin
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
+    com.minequiz.api: DEBUG

@@ -1,0 +1,890 @@
+[
+  {
+    "text": "Quale blocco devi minare per ottenere Diamanti?",
+    "options": [
+      "Pietra",
+      "Minerale di Diamante",
+      "Ossidiana",
+      "Blocco d'oro"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Mining",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quanti blocchi di assi di legno servono per creare un banco da lavoro (Crafting Table)?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "9"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale mob ostile esplode quando si avvicina al giocatore?",
+    "options": [
+      "Zombie",
+      "Scheletro",
+      "Creeper",
+      "Enderman"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale strumento è necessario per minare l'Ossidiana?",
+    "options": [
+      "Piccone di Legno",
+      "Piccone di Pietra",
+      "Piccone di Ferro",
+      "Piccone di Diamante"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Mining",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Come si ottiene un segnale di Redstone da un Pulsante di Legno dopo averlo premuto?",
+    "options": [
+      "Il segnale rimane attivo finché non viene premuto di nuovo",
+      "Emette un impulso di breve durata",
+      "Non emette alcun segnale",
+      "Emette un segnale costante"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Redstone",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale dimensione è necessaria per trovare le Fortezze del Nether?",
+    "options": [
+      "Overworld",
+      "Nether",
+      "End",
+      "Aether"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Exploration",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Qual è il blocco più resistente a esplosioni in Minecraft?",
+    "options": [
+      "Diamante",
+      "Ossidiana",
+      "Letto di Roccia",
+      "Acciaio"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Blocks",
+    "difficulty": "HARD"
+  },
+  {
+    "text": "Quale oggetto ti permette di teletrasportarti tra i punti fissati nel mondo?",
+    "options": [
+      "Bussola",
+      "Ancora di Rientro",
+      "Portale dell'End",
+      "Portale del Nether"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Exploration",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale materiale è necessario per creare una Tavola Incantata?",
+    "options": [
+      "Legno e Libri",
+      "Libri e Pietre Infuocate",
+      "Libri e Ossidiana",
+      "Libri e Diamanti"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale cibo ripristina più punti fame?",
+    "options": [
+      "Mela Dorata",
+      "Bistecca",
+      "Pane",
+      "Zucca"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Food",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale mob può generarsi solo durante i temporali?",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Scheletro",
+      "Slime"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco può essere utilizzato per creare un portale del Nether?",
+    "options": [
+      "Pietra Infuocata",
+      "Ossidiana",
+      "Blocchi di Ferro",
+      "Blocchi di Diamante"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Building",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto ti permette di respirare sott'acqua?",
+    "options": [
+      "Coppa d'Acqua",
+      "Elmo da Sub",
+      "Pozione di Respirazione",
+      "Casco di Ferro"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Items",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale animale può essere addomesticato con semi di zucca?",
+    "options": [
+      "Lupo",
+      "Gatto",
+      "Coniglio",
+      "Pappagallo"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale arma infligge più danni?",
+    "options": [
+      "Arco",
+      "Spada di Diamante",
+      "Ascia di Diamante",
+      "Tridente"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Combat",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto ti permette di vedere gli altri giocatori attraverso i muri?",
+    "options": [
+      "Binocolo",
+      "Visore Notturno",
+      "Effetto di Visione Notturna",
+      "Effetto di Invisibilità"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Items",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Qual è il bioma più raro in Minecraft?",
+    "options": [
+      "Foresta",
+      "Deserto",
+      "Mushroom Island",
+      "Taiga"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Biomes",
+    "difficulty": "HARD"
+  },
+  {
+    "text": "Quale oggetto può essere usato per curare un Lupo ferito?",
+    "options": [
+      "Carne Cruda",
+      "Osso",
+      "Carne Cotta",
+      "Mela Dorata"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto può essere usato per distruggere rapidamente blocchi di vetro?",
+    "options": [
+      "Piccone di Diamante",
+      "Ascia di Ferro",
+      "Pala di Legno",
+      "Nessuno"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Tools",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto può essere usato per creare un Portale dell'End?",
+    "options": [
+      "Occhi del Drago",
+      "Occhi dell'End",
+      "Perle dell'End",
+      "Blocchi di End Stone"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Building",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto può essere usato per creare un treno su rotaie?",
+    "options": [
+      "Carrello",
+      "Vagone",
+      "Locomotiva",
+      "Minecart"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Transportation",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco è necessario per creare una torcia?",
+    "options": [
+      "Carbone",
+      "Legno",
+      "Carbone e Bastoncini",
+      "Pietra"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale strumento è il più veloce per minare la sabbia?",
+    "options": [
+      "Pala di Legno",
+      "Pala di Ferro",
+      "Pala di Diamante",
+      "Piccone di Diamante"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mining",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale animale può essere cavalcato senza sella?",
+    "options": [
+      "Cavallo",
+      "Lama",
+      "Maiale",
+      "Mucca"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco è necessario per creare un forno?",
+    "options": [
+      "Pietra",
+      "Ciotola di Pietra",
+      "Mattoni",
+      "Ferro"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Crafting",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto ti permette di volare in modalità creativa?",
+    "options": [
+      "Elytra",
+      "Ali di Pollo",
+      "Pozione di Levitazione",
+      "Nessuno"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Items",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale blocco è necessario per creare una leva?",
+    "options": [
+      "Ferro",
+      "Bastoncino e Ciotola di Pietra",
+      "Bastoncino e Ferro",
+      "Legno"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale bioma è l'unico in cui puoi trovare i Panda?",
+    "options": [
+      "Foresta",
+      "Taiga",
+      "Bamboo Jungle",
+      "Savana"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Biomes",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto ti permette di vedere attraverso i blocchi?",
+    "options": [
+      "Occhiali a Raggi X",
+      "Pozione di Visione Notturna",
+      "Effetto di Invisibilità",
+      "Nessuno"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Items",
+    "difficulty": "HARD"
+  },
+  {
+    "text": "Quale blocco è necessario per creare un distributore?",
+    "options": [
+      "Ferro",
+      "Pietra Rossa",
+      "Ferro e Pietra Rossa",
+      "Legno"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale animale può essere addomesticato con le carote?",
+    "options": [
+      "Cavallo",
+      "Coniglio",
+      "Maiale",
+      "Mucca"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco è necessario per creare una lanterna?",
+    "options": [
+      "Ferro e Torcia",
+      "Ferro e Carbone",
+      "Ferro e Bastoncini",
+      "Ferro e Pietra"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Crafting",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale strumento è necessario per minare l'Ossidiana?",
+    "options": [
+      "Piccone di Legno",
+      "Piccone di Pietra",
+      "Piccone di Ferro",
+      "Piccone di Diamante"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Mining",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto ti permette di respirare sott'acqua?",
+    "options": [
+      "Coppa d'Acqua",
+      "Elmo da Sub",
+      "Pozione di Respirazione",
+      "Casco di Ferro"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Items",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale animale può essere addomesticato con semi di zucca?",
+    "options": [
+      "Lupo",
+      "Gatto",
+      "Coniglio",
+      "Pappagallo"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale arma infligge più danni?",
+    "options": [
+      "Arco",
+      "Spada di Diamante",
+      "Ascia di Diamante",
+      "Tridente"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Combat",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto ti permette di vedere gli altri giocatori attraverso i muri?",
+    "options": [
+      "Binocolo",
+      "Visore Notturno",
+      "Effetto di Visione Notturna",
+      "Effetto di Invisibilità"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Items",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Qual è il bioma più raro in Minecraft?",
+    "options": [
+      "Foresta",
+      "Deserto",
+      "Mushroom Island",
+      "Taiga"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Biomes",
+    "difficulty": "HARD"
+  },
+  {
+    "text": "Quale oggetto può essere usato per curare un Lupo ferito?",
+    "options": [
+      "Carne Cruda",
+      "Osso",
+      "Carne Cotta",
+      "Mela Dorata"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto può essere usato per distruggere rapidamente blocchi di vetro?",
+    "options": [
+      "Piccone di Diamante",
+      "Ascia di Ferro",
+      "Pala di Legno",
+      "Nessuno"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Tools",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto può essere usato per creare un Portale dell'End?",
+    "options": [
+      "Occhi del Drago",
+      "Occhi dell'End",
+      "Perle dell'End",
+      "Blocchi di End Stone"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Building",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto può essere usato per creare un treno su rotaie?",
+    "options": [
+      "Carrello",
+      "Vagone",
+      "Locomotiva",
+      "Minecart"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Transportation",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco può essere utilizzato per creare un portale del Nether?",
+    "options": [
+      "Pietra Infuocata",
+      "Ossidiana",
+      "Blocchi di Ferro",
+      "Blocchi di Diamante"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Building",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto ti permette di teletrasportarti tra i punti fissati nel mondo?",
+    "options": [
+      "Bussola",
+      "Ancora di Rientro",
+      "Portale dell'End",
+      "Portale del Nether"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Exploration",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale materiale è necessario per creare una Tavola Incantata?",
+    "options": [
+      "Legno e Libri",
+      "Libri e Pietre Infuocate",
+      "Libri e Ossidiana",
+      "Libri e Diamanti"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale cibo ripristina più punti fame?",
+    "options": [
+      "Mela Dorata",
+      "Bistecca",
+      "Pane",
+      "Zucca"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Food",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale mob può generarsi solo durante i temporali?",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Scheletro",
+      "Slime"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco è il più resistente a esplosioni in Minecraft?",
+    "options": [
+      "Diamante",
+      "Ossidiana",
+      "Letto di Roccia",
+      "Acciaio"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Blocks",
+    "difficulty": "HARD"
+  },
+  {
+    "text": "Quale dimensione è necessaria per trovare le Fortezze del Nether?",
+    "options": [
+      "Overworld",
+      "Nether",
+      "End",
+      "Aether"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Exploration",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale blocco devi minare per ottenere Diamanti?",
+    "options": [
+      "Pietra",
+      "Minerale di Diamante",
+      "Ossidiana",
+      "Blocco d'oro"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Mining",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quanti blocchi di assi di legno servono per creare un banco da lavoro (Crafting Table)?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "9"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale mob ostile esplode quando si avvicina al giocatore?",
+    "options": [
+      "Zombie",
+      "Scheletro",
+      "Creeper",
+      "Enderman"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Come si ottiene un segnale di Redstone da un Pulsante di Legno dopo averlo premuto?",
+    "options": [
+      "Il segnale rimane attivo finché non viene premuto di nuovo",
+      "Emette un impulso di breve durata",
+      "Non emette alcun segnale",
+      "Emette un segnale costante"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Redstone",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale blocco può essere utilizzato per creare un portale del Nether?",
+    "options": [
+      "Pietra Infuocata",
+      "Ossidiana",
+      "Blocchi di Ferro",
+      "Blocchi di Diamante"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Building",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto ti permette di respirare sott'acqua?",
+    "options": [
+      "Coppa d'Acqua",
+      "Elmo da Sub",
+      "Pozione di Respirazione",
+      "Casco di Ferro"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Items",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale animale può essere addomesticato con semi di zucca?",
+    "options": [
+      "Lupo",
+      "Gatto",
+      "Coniglio",
+      "Pappagallo"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale arma infligge più danni?",
+    "options": [
+      "Arco",
+      "Spada di Diamante",
+      "Ascia di Diamante",
+      "Tridente"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Combat",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto ti permette di vedere gli altri giocatori attraverso i muri?",
+    "options": [
+      "Binocolo",
+      "Visore Notturno",
+      "Effetto di Visione Notturna",
+      "Effetto di Invisibilità"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Items",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Qual è il bioma più raro in Minecraft?",
+    "options": [
+      "Foresta",
+      "Deserto",
+      "Mushroom Island",
+      "Taiga"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Biomes",
+    "difficulty": "HARD"
+  },
+  {
+    "text": "Quale oggetto può essere usato per curare un Lupo ferito?",
+    "options": [
+      "Carne Cruda",
+      "Osso",
+      "Carne Cotta",
+      "Mela Dorata"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto può essere usato per distruggere rapidamente blocchi di vetro?",
+    "options": [
+      "Piccone di Diamante",
+      "Ascia di Ferro",
+      "Pala di Legno",
+      "Nessuno"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Tools",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto può essere usato per creare un Portale dell'End?",
+    "options": [
+      "Occhi del Drago",
+      "Occhi dell'End",
+      "Perle dell'End",
+      "Blocchi di End Stone"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Building",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale oggetto può essere usato per creare un treno su rotaie?",
+    "options": [
+      "Carrello",
+      "Vagone",
+      "Locomotiva",
+      "Minecart"
+    ],
+    "correctAnswerIndex": 3,
+    "category": "Transportation",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco può essere utilizzato per creare un portale del Nether?",
+    "options": [
+      "Pietra Infuocata",
+      "Ossidiana",
+      "Blocchi di Ferro",
+      "Blocchi di Diamante"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Building",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale oggetto ti permette di teletrasportarti tra i punti fissati nel mondo?",
+    "options": [
+      "Bussola",
+      "Ancora di Rientro",
+      "Portale dell'End",
+      "Portale del Nether"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Exploration",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale materiale è necessario per creare una Tavola Incantata?",
+    "options": [
+      "Legno e Libri",
+      "Libri e Pietre Infuocate",
+      "Libri e Ossidiana",
+      "Libri e Diamanti"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale cibo ripristina più punti fame?",
+    "options": [
+      "Mela Dorata",
+      "Bistecca",
+      "Pane",
+      "Zucca"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Food",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale mob può generarsi solo durante i temporali?",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Scheletro",
+      "Slime"
+    ],
+    "correctAnswerIndex": 0,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale blocco è il più resistente a esplosioni in Minecraft?",
+    "options": [
+      "Diamante",
+      "Ossidiana",
+      "Letto di Roccia",
+      "Acciaio"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Blocks",
+    "difficulty": "HARD"
+  },
+  {
+    "text": "Quale dimensione è necessaria per trovare le Fortezze del Nether?",
+    "options": [
+      "Overworld",
+      "Nether",
+      "End",
+      "Aether"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Exploration",
+    "difficulty": "MEDIUM"
+  },
+  {
+    "text": "Quale blocco devi minare per ottenere Diamanti?",
+    "options": [
+      "Pietra",
+      "Minerale di Diamante",
+      "Ossidiana",
+      "Blocco d'oro"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Mining",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quanti blocchi di assi di legno servono per creare un banco da lavoro (Crafting Table)?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "9"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Crafting",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Quale mob ostile esplode quando si avvicina al giocatore?",
+    "options": [
+      "Zombie",
+      "Scheletro",
+      "Creeper",
+      "Enderman"
+    ],
+    "correctAnswerIndex": 2,
+    "category": "Mobs",
+    "difficulty": "EASY"
+  },
+  {
+    "text": "Come si ottiene un segnale di Redstone da un Pulsante di Legno dopo averlo premuto?",
+    "options": [
+      "Il segnale rimane attivo finché non viene premuto di nuovo",
+      "Emette un impulso di breve durata",
+      "Non emette alcun segnale",
+      "Emette un segnale costante"
+    ],
+    "correctAnswerIndex": 1,
+    "category": "Redstone",
+    "difficulty": "MEDIUM"
+  }
+]
