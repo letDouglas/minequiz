@@ -1,0 +1,10 @@
+
+:host {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 7rem;
+  box-sizing: border-box;
+}
+

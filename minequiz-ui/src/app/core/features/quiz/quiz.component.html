@@ -1,0 +1,120 @@
+<div
+  class="container mx-auto max-w-3xl p-6 backdrop-blur-md bg-white/70 dark:bg-gray-800/70 rounded-xl shadow-xl border dark:border-gray-700">
+
+  <div *ngIf="quizPhase === 'loading'" class="text-center py-12">
+    <div *ngIf="!errorMessage">
+      <p class="text-xl text-blue-600 dark:text-blue-400 animate-pulse font-semibold">
+        ⛏️ Caricamento domande dal Nether...
+      </p>
+      <div
+        class="mt-4 inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-blue-600 motion-reduce:animate-[spin_1.5s_linear_infinite]"
+        role="status">
+        <span class="absolute -m-px h-px w-px overflow-hidden whitespace-nowrap border-0 p-0 clip-rect(0,0,0,0)">
+          Loading...
+        </span>
+      </div>
+    </div>
+    <div *ngIf="errorMessage" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
+         role="alert">
+      <strong class="font-bold">Oops! Un Creeper ha fatto esplodere il caricamento!</strong>
+      <span class="block sm:inline">{{ errorMessage }}</span>
+      <button (click)="loadQuiz()"
+              class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-150 ease-in-out">
+        Riprova
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="quizPhase === 'active' && currentQuestion">
+    <div class="mb-4 text-sm text-gray-600 dark:text-gray-400 text-center">
+      Domanda {{ currentQuestionIndex + 1 }} di {{ questions.length }} | Punteggio: {{ score }}
+      <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-1 overflow-hidden">
+        <div class="bg-blue-600 h-2.5 rounded-full transition-all duration-500 ease-in-out"
+             [style.width.%]="(currentQuestionIndex + 1) / questions.length * 100">
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md mb-6 border border-gray-200 dark:border-gray-700">
+      <p
+        class="text-xl font-semibold mb-5 text-center text-gray-800 dark:text-gray-100 shadow-sm shadow-blue-300 dark:shadow-blue-800 rounded-md p-3">
+        {{ currentQuestion.text }}
+      </p>
+
+
+      <div class="space-y-3">
+        <button *ngFor="let option of currentQuestion.options; let i = index"
+                (click)="selectAnswer(i)"
+                [disabled]="isAnswerSubmitted"
+                [ngClass]="getOptionClass(i)"
+                class="block w-full text-left p-4 rounded-lg border-2 font-mono tracking-wide
+                       bg-gradient-to-br from-yellow-100 to-yellow-300 dark:from-yellow-700 dark:to-yellow-900
+                       border-yellow-500 dark:border-yellow-700 text-gray-800 dark:text-gray-200
+                       transition duration-200 ease-in-out transform hover:scale-105 active:scale-95
+                       focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500
+                       disabled:opacity-50 disabled:cursor-not-allowed shadow-md hover:shadow-lg">
+          <span class="font-semibold">{{ option }}</span>
+        </button>
+      </div>
+
+      <div *ngIf="isAnswerSubmitted" class="mt-4 text-center">
+        <span *ngIf="selectedAnswerIndex === currentQuestion.correctAnswerIndex"
+              class="text-green-600 dark:text-green-400 font-bold">
+          Corretto! 🎉
+        </span>
+        <span *ngIf="selectedAnswerIndex !== null && selectedAnswerIndex !== currentQuestion.correctAnswerIndex"
+              class="text-red-600 dark:text-red-400 font-bold">
+          Sbagliato! La risposta era: {{ currentQuestion.options[currentQuestion.correctAnswerIndex] }}
+        </span>
+      </div>
+    </div>
+
+    <div class="flex justify-center mt-6 space-x-4">
+      <button *ngIf="selectedAnswerIndex !== null && !isAnswerSubmitted"
+              (click)="submitAnswer()"
+              class="bg-green-500 hover:bg-green-600 active:bg-green-700 text-white font-bold py-2 px-6 rounded-lg
+                     transition duration-150 ease-in-out shadow-md hover:shadow-xl transform hover:scale-105">
+        Conferma Risposta ✅
+      </button>
+
+      <button *ngIf="isAnswerSubmitted"
+              (click)="goToNextQuestion()"
+              class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg
+                     transition duration-150 ease-in-out shadow-md hover:shadow-xl transform hover:scale-105">
+        {{ currentQuestionIndex < questions.length - 1 ? 'Prossima Domanda ➡️' : 'Vedi Risultati 🏆' }}
+      </button>
+    </div>
+
+    <div class="mt-6 text-center text-xs text-gray-500 dark:text-gray-400">
+      Categoria: {{ currentQuestion.category }} | Difficoltà: {{ currentQuestion.difficulty }}
+    </div>
+  </div>
+
+  <div *ngIf="quizPhase === 'results'" class="text-center py-12">
+    <h2 class="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100 font-[ 'Press Start 2P' ]">
+      Quiz Completato!
+    </h2>
+    <div class="text-5xl mb-4">
+      🏆
+    </div>
+    <p class="text-xl mb-6 text-gray-700 dark:text-gray-200">
+      Il tuo punteggio finale è:
+      <span class="font-extrabold text-3xl"
+            [ngClass]="score / questions.length >= 0.7 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'">
+        {{ score }} / {{ questions.length }}
+      </span>
+    </p>
+
+    <p class="mb-8 text-lg text-gray-600 dark:text-gray-300">
+      <span *ngIf="score === questions.length">Sei un vero esperto di Minecraft! 🥳</span>
+      <span *ngIf="score < questions.length && score >= questions.length / 2">Ottimo lavoro! Conosci bene il mondo dei cubi! 👍</span>
+      <span *ngIf="score < questions.length / 2">Non male, ma c'è ancora da scavare! Continua a giocare! 😉</span>
+    </p>
+
+    <button (click)="restartQuiz()"
+            class="bg-purple-600 hover:bg-purple-800 active:bg-purple-900 text-white font-bold py-3 px-8 rounded-lg text-lg
+                   transition duration-150 ease-in-out shadow-lg hover:shadow-2xl transform hover:scale-105">
+      Rigioca! 🔁
+    </button>
+  </div>
+</div>
