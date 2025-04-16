@@ -1,28 +1,33 @@
-<header class="bg-gradient-to-r from-blue-600 to-indigo-700 dark:from-blue-800 dark:to-indigo-900 text-white p-4 shadow-lg">
+<header class="bg-gradient-to-r from-blue-600 to-indigo-700 dark:from-blue-800 dark:to-indigo-900 text-white p-4 shadow-lg fixed top-0 left-0 right-0 z-50">
   <div class="container mx-auto flex items-center justify-between">
-    <!-- Logo/Title -->
     <h1 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 animate-glow">
-      MineQuiz!
+      <a routerLink="/home">MineQuiz!</a>
     </h1>
 
-    <!-- Navigazione o azioni aggiuntive -->
     <nav class="flex space-x-4">
-      <a href="#" class="hover:text-yellow-300 transition duration-300 ease-in-out">Home</a>
-      <a href="#" class="hover:text-yellow-300 transition duration-300 ease-in-out">About</a>
-      <a href="#" class="hover:text-yellow-300 transition duration-300 ease-in-out">Contact</a>
+      <a routerLink="/home"
+         routerLinkActive="text-yellow-300 font-semibold border-b-2 border-yellow-300"
+         [routerLinkActiveOptions]="{exact: true}"
+         class="hover:text-yellow-300 transition duration-300 ease-in-out px-2 py-1">Home</a>
+      <a routerLink="/about"
+         routerLinkActive="text-yellow-300 font-semibold border-b-2 border-yellow-300"
+         class="hover:text-yellow-300 transition duration-300 ease-in-out px-2 py-1">About</a>
+      <a routerLink="/contact"
+         routerLinkActive="text-yellow-300 font-semibold border-b-2 border-yellow-300"
+         class="hover:text-yellow-300 transition duration-300 ease-in-out px-2 py-1">Contact</a>
     </nav>
 
-    <!-- Pulsante interattivo -->
-    <button class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
+    <button routerLink="/quiz"
+            class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105">
       Start Quiz 🚀
     </button>
   </div>
 </header>
 
-<main class="p-4">
+<main class="pt-20 p-4">
   <router-outlet></router-outlet>
 </main>
 
 <footer class="text-center p-4 mt-8 text-sm text-gray-500 dark:text-gray-400">
-  Gruppo Boris - GrandMaster di Minecraft
+  Gruppo Boris - GrandMaster di Minecraft © {{ currentYear }}
 </footer>
