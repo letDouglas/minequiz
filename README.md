@@ -5,6 +5,7 @@ MineQuiz è un'applicazione interattiva che combina il mondo di Minecraft con un
 ## Contenuto
 
 - [Introduzione](#introduzione)
+- [Anteprima dell'App](#anteprima-dellapp)
 - [Requisiti](#requisiti)
 - [Tecnologie Utilizzate](#tecnologie-utilizzate)
 - [Struttura del Progetto](#struttura-del-progetto)
@@ -16,6 +17,22 @@ MineQuiz è un'applicazione interattiva che combina il mondo di Minecraft con un
 ## Introduzione
 
 MineQuiz è progettato per gli appassionati di Minecraft che vogliono mettere alla prova le loro conoscenze e divertirsi allo stesso tempo. Le domande coprono una vasta gamma di argomenti, dalle basi alle curiosità più avanzate, rendendo il quiz adatto sia ai principianti che agli esperti.
+
+## 📸 Anteprima dell'App
+
+Una breve panoramica visiva di MineQuiz:
+
+### 🏠 Homepage
+![Homepage](assets/home.png)
+
+### ❓ Domanda Quiz
+![Quiz](assets/quiz.png)
+
+### 📞 Schermata Contatti
+![Contatti](assets/contact.png)
+
+### ℹ️ Schermata Info
+![About](assets/about.png)
 
 ## Requisiti
 
