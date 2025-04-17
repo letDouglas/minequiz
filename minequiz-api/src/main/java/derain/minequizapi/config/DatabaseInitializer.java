@@ -16,7 +16,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 @Component
-@Profile("!test") // Solo se non è il profilo test
 @Slf4j
 public class DatabaseInitializer {
 
