@@ -1,0 +1,25 @@
+/* Importa il font "Press Start 2P" */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Stile del footer */
+footer {
+  background-color: #000; /* Nero solido */
+  color: #55ff55; /* Verde tipico di Minecraft */
+  font-family: 'Press Start 2P', cursive; /* Font in stile Minecraft */
+  letter-spacing: 1px; /* Spaziatura tra le lettere per un effetto vintage */
+  text-shadow: 0 0 5px #55ff55, 0 0 10px #55ff55; /* Effetto glow verde */
+}
+
+/* Animazione opzionale per il testo */
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+footer p {
+  animation: flicker 1.5s infinite; /* Effetto flickering tipico di Minecraft */
+}

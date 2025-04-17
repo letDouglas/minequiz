@@ -1,14 +1,74 @@
 <div class="text-center p-10">
-  <h2 class="text-4xl font-bold mb-4">Benvenuto su MineQuiz!</h2>
-  <p class="text-lg mb-6">Metti alla prova la tua conoscenza di Minecraft!</p>
-  <button routerLink="/quiz" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg text-xl transition duration-300 transform hover:scale-105">
-    Inizia Subito Bro ⛏️
-  </button>
+  <!-- Contenitore principale con larghezza massima -->
+  <div class="container mx-auto max-w-3xl">
+    <!-- Sezione di benvenuto -->
+    <section class="mb-12">
+      <h2 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-4 animate-glow">
+        Benvenuto su MineQuiz!
+      </h2>
+      <p class="text-lg text-gray-300 mb-6">
+        Metti alla prova le tue conoscenze sul mondo di Minecraft con il nostro quiz divertente e coinvolgente. Scopri quanto sei esperto di cubi, mostri e avventure!
+      </p>
+      <p class="text-lg text-gray-300 mb-6">
+        Che tu sia un neofita che sta scoprendo il mondo di Minecraft per la prima volta o un veterano pronto a testare la tua esperienza, MineQuiz offre qualcosa per tutti! Ogni domanda è pensata per sfidare anche i più esperti, ma con la giusta dose di divertimento.
+      </p>
+    </section>
 
-  <div class="parallax-section mt-10 h-64 bg-fixed bg-center bg-cover rounded-lg shadow-lg"
-       style="background-image: url('./sballata.png')">
-    <div class="flex items-center justify-center h-full bg-black bg-opacity-40 rounded-lg">
-      <h3 class="text-white text-3xl font-bold">Esplora il Mondo di Minecraft!</h3>
-    </div>
+    <!-- Sezione storia -->
+    <section class="mt-12 space-y-6">
+      <h3 class="text-3xl font-bold text-white mb-4">La Storia di MineQuiz</h3>
+      <p class="text-gray-300">
+        Tutto è iniziato in una notte stellata del 2020, quando un gruppo di appassionati di Minecraft si riunì attorno a un fuoco virtuale. Mentre raccontavano le loro avventure nel gioco, nacque un'idea: creare un modo divertente per sfidarsi a vicenda e mettere alla prova le proprie conoscenze su questo mondo magico.
+      </p>
+      <p class="text-gray-300">
+        Così, MineQuiz vide la luce. Il nostro obiettivo era semplice: creare un quiz che fosse non solo educativo, ma anche coinvolgente e divertente. Ogni domanda è stata pensata per farvi immergere nel mondo di Minecraft, dai primi passi nella modalità Survival fino alle costruzioni più elaborate in Creative.
+      </p>
+      <p class="text-gray-300">
+        Oggi, MineQuiz è diventato un punto di riferimento per tutti gli appassionati di Minecraft. Che tu sia un giocatore esperto o un principiante, troverai domande stimolanti che ti faranno scoprire nuovi aspetti del gioco. Non è solo un gioco di domande e risposte, è un'esperienza interattiva che coinvolge i giocatori in un viaggio attraverso le meraviglie di Minecraft.
+      </p>
+    </section>
+
+    <!-- Sezione video -->
+    <section class="mt-12">
+      <h3 class="text-2xl font-bold text-white mb-4">Esplora il Mondo di Minecraft!</h3>
+      <div class="relative w-full aspect-video overflow-hidden rounded-lg shadow-lg">
+        <iframe
+          class="absolute top-0 left-0 w-full h-full"
+          src="https://www.youtube.com/embed/MmB9b5njVbA"
+          title="Minecraft Trailer"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="text-gray-300 mt-6">
+        Dai un'occhiata al trailer di Minecraft per scoprire l'incredibile mondo che ti aspetta. In questo video vedrai alcuni dei momenti più epici, dalle battaglie contro i mob alle spettacolari costruzioni che i giocatori hanno realizzato nel corso degli anni.
+      </p>
+    </section>
+
+    <!-- Sezione motivazionale -->
+    <section class="mt-12 space-y-6">
+      <h3 class="text-3xl font-bold text-white mb-4">Perché scegliere MineQuiz?</h3>
+      <p class="text-gray-300">
+        MineQuiz è molto più di un semplice quiz. È un viaggio attraverso il mondo di Minecraft, un modo per imparare cose nuove e divertirsi allo stesso tempo. Ogni domanda è accompagnata da effetti visivi e animazioni per rendere l'esperienza ancora più coinvolgente.
+      </p>
+      <p class="text-gray-300">
+        Mettiti alla prova e scopri se sei un vero GrandMaster di Minecraft. Le domande spaziano dalle informazioni di base alle curiosità più avanzate, coprendo tutte le versioni del gioco e le sue espansioni.
+      </p>
+      <p class="text-gray-300">
+        Che tu voglia sfidare i tuoi amici o semplicemente migliorare le tue conoscenze, MineQuiz è il posto giusto per te! Sfidati a superare i livelli più difficili, scopri nuove curiosità su Minecraft e diventa il campione del quiz.
+      </p>
+    </section>
+
+    <!-- Sezione finale -->
+    <section class="mt-12 space-y-6">
+      <h3 class="text-3xl font-bold text-white mb-4">Unisciti alla Comunità di MineQuiz</h3>
+      <p class="text-gray-300">
+        Entrare nella nostra comunità significa molto di più che partecipare a un quiz. Significa connettersi con altri appassionati di Minecraft da tutto il mondo. Condividi le tue esperienze, scopri nuovi segreti di gioco e partecipa a eventi speciali.
+      </p>
+      <p class="text-gray-300">
+        Se vuoi rimanere aggiornato su tutte le novità, seguici sui nostri social media, partecipa a competizioni settimanali e unisciti a una rete di appassionati di Minecraft che cresce ogni giorno. La nostra missione è quella di rendere MineQuiz il luogo di riferimento per chi ama questo gioco leggendario.
+      </p>
+    </section>
   </div>
 </div>

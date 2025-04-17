@@ -1,0 +1,90 @@
+:host {
+  min-height: 100vh; /* Altezza minima pari all'altezza del viewport */
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font pulito e leggibile */
+  margin: 0; /* Rimuove eventuali margini esterni */
+  padding: 0; /* Rimuove eventuali padding esterni */
+  overflow: hidden; /* Impedisce lo scroll */
+}
+
+.container {
+  max-width: 42rem; /* Larghezza massima */
+  margin: 5rem auto; /* Rimane centrato */
+  padding: 1rem 2rem 3rem 2rem;
+  backdrop-filter: blur(10px); /* Effetto di sfondo sfocato */
+  background: #121212; /* Sfondo grigio scuro quasi nero */
+  border-radius: 1.5rem; /* Bordo arrotondato */
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1), 0 4px 6px rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Bordo leggero */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-30px); /* Effetto hover */
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.15), 0 6px 10px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  font-size: 2.5rem; /* Font più grande per il titolo */
+  font-weight: 700; /* Grassetto */
+  color: #ffffff; /* Testo bianco per contrasto */
+  text-align: center; /* Allinea il titolo al centro */
+  margin-bottom: 1.5rem; /* Spazio sotto il titolo */
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 80px; /* Linea più lunga sotto il titolo */
+  height: 4px;
+  background: #4caf50; /* Colore verde per la linea */
+  margin: -0.5rem auto;
+  border-radius: 2px;
+}
+
+p {
+  font-size: 1.1rem; /* Aumenta la dimensione del testo per migliorare la leggibilità */
+  line-height: 1.75; /* Maggiore spazio tra le righe */
+  color: #d1d1d1; /* Colore grigio chiaro per il testo */
+  margin-bottom: 1.5rem; /* Aumenta lo spazio tra i paragrafi */
+  text-align: justify; /* Giustifica il testo per un allineamento uniforme */
+}
+
+strong {
+  color: #4caf50; /* Colore verde per enfatizzare parole chiave */
+}
+
+img {
+  border-radius: 1rem; /* Angoli arrotondati per l'immagine */
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.1); /* Ombra per l'immagine */
+  transition: transform 0.3s ease;
+  width: 100%; /* L'immagine occupa tutta la larghezza */
+  max-width: 700px; /* Aumenta la larghezza massima dell'immagine */
+  margin-top: 0; /* Aggiungi spazio sopra l'immagine */
+}
+
+img:hover {
+  transform: scale(1.05); /* Leggero ingrandimento quando l'immagine viene selezionata */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column; /* Layout in colonna per testo sopra l'immagine */
+  align-items: center; /* Centra il contenuto */
+  gap: 2rem; /* Distanza tra il testo e l'immagine */
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 50rem; /* Aumenta la larghezza per dispositivi più grandi */
+  }
+
+  p {
+    font-size: 1.2rem; /* Aumenta leggermente la dimensione del testo sui dispositivi più grandi */
+  }
+
+  h2 {
+    font-size: 2.7rem; /* Aumenta la dimensione del titolo su dispositivi più grandi */
+  }
+}
