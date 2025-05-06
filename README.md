@@ -1,3 +1,4 @@
+
 # MineQuiz
 
 MineQuiz è un'applicazione interattiva che combina il mondo di Minecraft con un quiz coinvolgente. Ogni domanda è arricchita da effetti visivi e animazioni per rendere l'esperienza ancora più divertente e immersiva.
